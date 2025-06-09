@@ -8,9 +8,5 @@ title: Home
 Welcome to my personal site.
 
 ## Site Tree
-- [/about](/about)
-- [/blog](/blog)
-- [/contact](/contact)
-- [/general](/general)
-- [/general/2025](/general/2025)
-- [/general/2025/06](/general/2025/06)
+- [the-monospace-web](https://cameronbrooks11.github.io/the-monospace-web/
+- [the-monospace-web](/the-monospace-web)
