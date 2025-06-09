@@ -1,10 +1,11 @@
+# File: .github/workflows/site-tree.yml
 name: Generate and Publish Site-Tree
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -58,7 +59,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: chore: update site tree
+          commit-message: "chore: update site tree"
           branch: update/site-tree
           title: "Update Site Tree"
           body: |
