@@ -31,9 +31,10 @@ jobs:
       - name: Mirror live site
         run: |
           rm -rf site-mirror
-          wget --mirror --convert-links --no-parent \
+          # Suppress exit code so directory-write errors don’t fail the job
+          wget --mirror --quiet --convert-links --no-parent \
                https://cameronbrooks11.github.io \
-               -P site-mirror
+               -P site-mirror || true
 
       - name: Generate markdown tree snippet
         run: |
@@ -57,15 +58,15 @@ jobs:
           # 2) Clean ignore file
           sed 's/#.*//' .site-tree-ignore | sed '/^[[:space:]]*$/d' > IGNORE_CLEAN
 
-          # 3) Filter _and_ de-dup
+          # 3) Filter & de-dup
           grep -v -E -f IGNORE_CLEAN SITE_TREE_RAW.md \
             | awk '!seen[$0]++' \
             > SITE_TREE_FILTERED.md
 
-          # 4) Remove any existing Site Tree section from index.markdown
+          # 4) Remove existing Site Tree section
           sed -i '/^## Site Tree/,$d' index.markdown
 
-          # 5) Append to index.markdown
+          # 5) Append fresh Site Tree
           {
             echo ""
             echo "## Site Tree"
@@ -74,7 +75,6 @@ jobs:
 
       - name: Clean up temp files
         run: |
-          rm -rf site-mirror SITE_TREE_SNIPPET.md
           rm -rf site-mirror SITE_TREE_RAW.md IGNORE_CLEAN SITE_TREE_FILTERED.md
 
       - name: Create Pull Request
