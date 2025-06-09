@@ -1,47 +1,59 @@
 # File: .github/workflows/deploy-pages.yml
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Build and deploy Jekyll site
 
 on:
-  # Runs on pushes to the default branch
   push:
-    branches: ["main"]
-  # Allows manual runs from the Actions tab
+    branches: [main]
   workflow_dispatch:
 
-# Permissions needed to deploy to Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Only one Pages deployment at a time
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Setup Pages
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Vendor monospace-web-theme assets
+        run: npm run vendor
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Install Ruby gems
+        run: bundle install
+
+      - name: Configure Pages
+        id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          # Source directory (repo root)
-          source: ./
-          # Output directory for the static site
-          destination: ./_site
+        run: bundle exec jekyll build --destination _site --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
   deploy:
     needs: build
     runs-on: ubuntu-latest
