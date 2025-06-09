@@ -1,0 +1,38 @@
+/* assets/css/overrides.css */
+
+/* Make header span full width and center its contents */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: calc(var(--line-height) * 1.5) var(--line-height);
+}
+
+/* Enlarge your site title */
+.site-header .site-title {
+  font-size: calc(var(--line-height) * 2);
+  margin: 0;
+}
+
+/* Turn the list into a horizontal nav bar */
+.site-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: calc(var(--line-height) * 1);
+}
+
+/* Enlarge the links for better legibility */
+.site-header nav a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+}
+
+/* (Optional) On hover, add a subtle background */
+.site-header nav a:hover {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
