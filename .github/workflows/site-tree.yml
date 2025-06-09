@@ -37,39 +37,38 @@ jobs:
 
       - name: Generate markdown tree snippet
         run: |
-          set -x  # echo all commands
+          set -euo pipefail
 
           ROOT="site-mirror/cameronbrooks11.github.io"
 
-          # 1) Build raw tree
+          # Build raw tree into SITE_TREE_RAW.md
           tree -fi --noreport -L 3 "$ROOT" | \
-            sed "s|$ROOT||" | \
-            sed '/^$/d' | \
+            sed "s|$ROOT||" | sed '/^$/d' | \
             awk '{
               path=$0; sub(/\/$/,"",path)
               if (path ~ /index\.html$/) {
-                link = substr(path,1,length(path)-11)
-                if (link=="") link="/"
+                link=substr(path,1,length(path)-11)
+                link=(link==""?"/":link)
               } else link=path
               if (link !~ /^\//) link="/" link
               print "- [" link "](" link ")"
             }' > SITE_TREE_RAW.md
 
-          # 2) Dump raw and ignore file
-          echo "===== .site-tree-ignore ====="
-          cat -n .site-tree-ignore || echo "(no ignore file found)"
-          echo "===== SITE_TREE_RAW.md ====="
-          cat -n SITE_TREE_RAW.md
+          # Clean ignore file: remove comments (#...) and blank lines
+          sed 's/#.*//' .site-tree-ignore | sed '/^[[:space:]]*$/d' > IGNORE_CLEAN
 
-          # 3) Filter
-          echo "===== Running grep -v -E -f .site-tree-ignore ====="
-          grep -v -E -f .site-tree-ignore SITE_TREE_RAW.md | tee SITE_TREE_FILTERED.md
+          # Debug: show cleaned patterns
+          echo "===== IGNORE_CLEAN ====="
+          cat -n IGNORE_CLEAN
 
-          # 4) Show filtered
+          # Filter raw tree into SITE_TREE_FILTERED.md
+          grep -v -E -f IGNORE_CLEAN SITE_TREE_RAW.md > SITE_TREE_FILTERED.md
+
+          # Debug: show filtered result
           echo "===== SITE_TREE_FILTERED.md ====="
           cat -n SITE_TREE_FILTERED.md
 
-          # 5) Append to index.markdown
+          # Append to index.markdown
           {
             echo ""
             echo "## Site Tree"

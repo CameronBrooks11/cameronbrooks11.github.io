@@ -1,3 +1,0 @@
-^\- \[\/\]\(\/\)$      # filter out the root entry "-"
-^\- \[\/assets        # any path under /assets
-^\- \[\/jekyll        # any path under /jekyll
