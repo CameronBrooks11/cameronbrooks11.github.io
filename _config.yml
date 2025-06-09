@@ -26,6 +26,8 @@ domain: cameronbrooks11.github.io # if you want to force HTTPS, specify the doma
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: cameronbrooks11
+# Generate URLs like /about/ instead of /about.html
+permalink: pretty
 
 # Build settings
 theme: monospace-web-jekyll-theme
