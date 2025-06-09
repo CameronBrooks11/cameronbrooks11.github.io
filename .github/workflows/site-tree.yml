@@ -31,7 +31,7 @@ jobs:
       - name: Mirror live site
         run: |
           rm -rf site-mirror
-          wget --mirror --quiet --convert-links --no-parent \
+          wget --mirror --convert-links --no-parent \
                https://cameronbrooks11.github.io \
                -P site-mirror
 
