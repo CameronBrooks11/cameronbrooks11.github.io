@@ -31,9 +31,11 @@ jobs:
       - name: Mirror live site
         run: |
           rm -rf site-mirror
-          wget --mirror --quiet --convert-links --no-parent \
-               https://cameronbrooks11.github.io \
-               -P site-mirror
+          # Mirror the live site; ignore exit code 3 (I/O errors) but fail on any other code
+          wget --mirror --convert-links --no-parent \
+               https://cameronbrooks11.github.io/ \
+               -P site-mirror || \
+          { ec=$?; if [ $ec -ne 3 ]; then exit $ec; fi; echo "Warning: wget exited code $ec, continuing"; }
 
       - name: Generate markdown tree snippet
         run: |
