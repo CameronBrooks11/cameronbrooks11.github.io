@@ -5,8 +5,6 @@ title: Home
 
 # Hi, I’m Cam
 
-Welcome to my personal site.
+Welcome to the root of my GitHub pages. Explore my projects at the index below
 
-## Site Tree
-- [the-monospace-web](https://cameronbrooks11.github.io/the-monospace-web/
 - [the-monospace-web](/the-monospace-web)
