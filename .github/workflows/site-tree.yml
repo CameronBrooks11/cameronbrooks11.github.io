@@ -38,33 +38,29 @@ jobs:
       - name: Generate markdown tree snippet
         run: |
           ROOT="site-mirror/cameronbrooks11.github.io"
+
+          # 1) build the raw snippet
           tree -fi --noreport -L 3 "$ROOT" | \
             sed "s|$ROOT||" | \
             sed '/^$/d' | \
             awk '{
-              # strip any trailing slash from path
-              path = $0; sub(/\/$/, "", path)
-
+              path=$0; sub(/\/$/, "", path)
               if (path ~ /index\.html$/) {
-                # drop the "/index.html" suffix
                 link = substr(path, 1, length(path)-11)
-                # root index.html -> "/"
-                if (link == "") link = "/"
-              } else {
-                link = path
-              }
-
-              # ensure leading slash
+                if (link=="") link="/"
+              } else link = path
               if (link !~ /^\//) link = "/" link
+              print "- [" link "](" link ")"
+            }' > SITE_TREE_RAW.md
 
-              line = "- [" link "](" link ")"
-              if (!seen[line]++) print line
-            }' > SITE_TREE_SNIPPET.md
+          # 2) filter using your ignore-patterns file
+          grep -v -E -f .site-tree-ignore SITE_TREE_RAW.md > SITE_TREE_FILTERED.md
 
+          # 3) append to index.markdown
           {
             echo ""
             echo "## Site Tree"
-            cat SITE_TREE_SNIPPET.md
+            cat SITE_TREE_FILTERED.md
           } >> index.markdown
 
       - name: Clean up temp files
