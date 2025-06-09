@@ -31,12 +31,12 @@ jobs:
         run: |
           rm -rf site-mirror
           wget --mirror --quiet --convert-links --no-parent \
-               https://CameronBrooks11.github.io \
+               https://cameronbrooks11.github.io \
                -P site-mirror
 
       - name: Generate markdown tree snippet
         run: |
-          ROOT="site-mirror/CameronBrooks11.github.io"
+          ROOT="site-mirror/cameronbrooks11.github.io"
           tree -fi --noreport -L 3 "$ROOT" | \
             sed "s|$ROOT||" | \
             sed '/^$/d' | \
