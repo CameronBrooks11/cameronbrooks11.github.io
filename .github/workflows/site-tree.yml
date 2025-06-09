@@ -42,17 +42,23 @@ jobs:
             sed "s|$ROOT||" | \
             sed '/^$/d' | \
             awk '{
-              path=$0
-              sub(/\/$/,"",path)
+              # strip any trailing slash from path
+              path = $0; sub(/\/$/, "", path)
+
               if (path ~ /index\.html$/) {
-                link = substr(path, 1, length(path)-10)
-                text = (link==""?"/":link)
+                # drop the "/index.html" suffix
+                link = substr(path, 1, length(path)-11)
+                # root index.html -> "/"
+                if (link == "") link = "/"
               } else {
                 link = path
-                text = path
               }
+
+              # ensure leading slash
               if (link !~ /^\//) link = "/" link
-              print "- [" text "](" link ")"
+
+              line = "- [" link "](" link ")"
+              if (!seen[line]++) print line
             }' > SITE_TREE_SNIPPET.md
 
           {
