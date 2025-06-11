@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site
+name: Build & Deploy Jekyll site
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read # we don’t need write access since we’re not pushing
+  pages: write # allow Pages deploy
+  id-token: write # for configure-pages
 
 concurrency:
   group: "pages"
@@ -18,11 +18,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1) Check out your repository
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          submodules: recursive
 
+      # 2) Vendor the monospace-web-theme assets locally
+      - name: Set up Node.js & vendor theme
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: Install NPM dependencies
+        run: npm ci
+      - name: Vendor monospace-web-theme
+        run: npm run vendor
+
+      # 3) Install Ruby and Jekyll gems
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -32,17 +42,25 @@ jobs:
       - name: Install Ruby gems
         run: bundle install
 
-      - name: Configure GitHub Pages
+      # 4) Configure GitHub Pages
+      - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build site with Jekyll
-        run: bundle exec jekyll build --destination _site --baseurl "${{ steps.pages.outputs.base_path }}"
+      # 5) Build your Jekyll site into _site/
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build \
+            --destination _site \
+            --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
-      - name: Upload artifact
+      # 6) Upload the finished _site/ for deployment
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
   deploy:
     needs: build
