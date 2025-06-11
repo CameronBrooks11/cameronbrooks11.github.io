@@ -33,9 +33,9 @@ permalink: pretty
 theme: monospace-web-jekyll-theme
 plugins:
   - jekyll-feed
-
-#theme_options:
- # show_theme_box:        true
+theme_options:
+ show_theme_box:        true
+ default_theme: "rose"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
