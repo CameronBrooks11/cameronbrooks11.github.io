@@ -31,11 +31,12 @@ permalink: pretty
 
 # Build settings
 theme: monospace-web-jekyll-theme
+theme_options:
+  show_theme_box: true
+  default_theme: rose
+
 plugins:
   - jekyll-feed
-theme_options:
- show_theme_box:        true
- default_theme: "rose"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -46,8 +47,8 @@ theme_options:
 # their entries' file path in the `include:` list.
 #
 exclude:
-    - _posts/LICENSE
-    - _posts/README.md
+  - _posts/LICENSE
+  - _posts/README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
