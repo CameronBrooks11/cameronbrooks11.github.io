@@ -30,13 +30,13 @@ github_username: cameronbrooks11
 permalink: pretty
 
 # Build settings
-theme: monospace-web-jekyll-theme
-theme_options:
-  show_theme_box: true
-  default_theme: rose
-
+remote_theme: CameronBrooks11/monospace-web-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+theme_options:
+  default_theme: rose
+  show_theme_box: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

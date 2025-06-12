@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 4.4.1"
 
 # Theme
-gem "monospace-web-jekyll-theme", "~> 0.1.3"
+#gem "monospace-web-jekyll-theme", "~> 0.1.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
