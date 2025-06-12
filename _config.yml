@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 theme_options:
-  default_theme: rose
+  default_theme: solarized
   show_theme_box: true
 
 # Exclude from processing.
