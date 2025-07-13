@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Hi, I’m Cam
+## Hi, I’m Cam
 
 Welcome to the root of my GitHub pages. Explore my projects at the index below
 
@@ -12,3 +12,5 @@ Welcome to the root of my GitHub pages. Explore my projects at the index below
 - [monospace-web-jekyll-theme](/monospace-web-jekyll-theme)
 - [pandoc-md2html-example](/pandoc-md2html-example)
 - [awesome-computational-design](./awesome-computational-design)
+- [just-the-docs-template-openscad](./just-the-docs-template-openscad)
+- [iLOX](./iLOX)
