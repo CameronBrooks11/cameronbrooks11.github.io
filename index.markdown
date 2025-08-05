@@ -5,7 +5,7 @@ title: Home
 
 ## Hi, I’m Cam
 
-Welcome to my GitHub Pages! Browse my projects below—click titles to visit their sites, or the `</>` links for their repositories.
+Welcome to my GitHub Pages! Browse my projects below by clicking the titles to visit their sites, or the `</>` links for their repositories.
 
 <ul>
 {% assign sorted_projects = site.data.projects | sort: "name" %}
