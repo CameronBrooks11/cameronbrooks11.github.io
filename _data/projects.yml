@@ -1,0 +1,32 @@
+- name: the‑monospace‑web
+  link: "/the-monospace-web"
+  repo: "https://github.com/CameronBrooks11/the-monospace-web"
+  description: "A minimalist design exploration using a monospace grid for text layout, diagrams, tables and ASCII art."
+- name: monospace‑web‑theme
+  link: "/monospace-web-theme"
+  repo: "https://github.com/CameronBrooks11/monospace-web-theme"
+  description: "A pure CSS + JavaScript theme enforcing a character‑aligned grid and monospace typography."
+- name: monospace‑web‑jekyll‑theme
+  link: "/monospace-web-jekyll-theme"
+  repo: "https://github.com/CameronBrooks11/monospace-web-jekyll-theme"
+  description: " A minimal Jekyll theme that automatically vendors CSS/JS from monospace-web-theme."
+- name: pandoc‑md2html‑example
+  link: "/pandoc-md2html-example"
+  repo: "https://github.com/CameronBrooks11/pandoc-md2html-example"
+  description: "A simple example workflow converting Markdown to HTML via Pandoc (showcasing md → html pipeline)."
+- name: awesome‑computational‑design
+  link: "/awesome-computational-design"
+  repo: "https://github.com/CameronBrooks11/awesome-computational-design"
+  description: "A curated list of awesome open‑source computational design tools."
+- name: just‑the‑docs‑template‑openscad
+  link: "/just-the-docs-template-openscad"
+  repo: "https://github.com/CameronBrooks11/just-the-docs-template-openscad"
+  description: "A starter combining the Just the Docs Jekyll theme with an OpenSCAD‑based template."
+- name: iLOX
+  link: "/iLOX"
+  repo: "https://github.com/CameronBrooks11/iLOX"
+  description: " InterLocking Orthogonal eXtrusions."
+- name: md2html-action
+  link: "/md2html-action"
+  repo: "https://github.com/CameronBrooks11/md2html-action"
+  description: "A GitHub Action for converting Markdown files to HTML."

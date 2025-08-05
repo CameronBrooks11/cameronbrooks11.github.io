@@ -5,12 +5,22 @@ title: Home
 
 ## Hi, I’m Cam
 
-Welcome to the root of my GitHub pages. Explore my projects at the index below
+Welcome to the root of my GitHub Pages. Explore my projects below:
 
-- [the-monospace-web](/the-monospace-web)
-- [monospace-web-theme](/monospace-web-theme)
-- [monospace-web-jekyll-theme](/monospace-web-jekyll-theme)
-- [pandoc-md2html-example](/pandoc-md2html-example)
-- [awesome-computational-design](./awesome-computational-design)
-- [just-the-docs-template-openscad](./just-the-docs-template-openscad)
-- [iLOX](./iLOX)
+Each project title links to its GitHub Pages site. GitHub repos are shown as `</>` links beside the project titles.
+
+<ul>
+{% assign sorted_projects = site.data.projects | sort: "name" %}
+{% for project in sorted_projects %}
+  <li style="margin-bottom: 0.75em;">
+    <strong>
+      <a href="{{ project.link }}">{{ project.name }}</a>
+      <a href="{{ project.repo }}" title="GitHub Repo"
+         style="font-size: 0.75em; vertical-align: super; text-decoration: none; margin-left: 0.25em;">&lt;/&gt;</a>
+    </strong>
+    <p style="margin: 0.2em 0 0.2em;">
+      {{ project.description }}
+    </p>
+  </li>
+{% endfor %}
+</ul>
