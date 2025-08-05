@@ -5,9 +5,7 @@ title: Home
 
 ## Hi, I’m Cam
 
-Welcome to the root of my GitHub Pages. Explore my projects below:
-
-Each project title links to its GitHub Pages site. GitHub repos are shown as `</>` links beside the project titles.
+Welcome to my GitHub Pages! Browse my projects below—click titles to visit their sites, or the `</>` links for their repositories.
 
 <ul>
 {% assign sorted_projects = site.data.projects | sort: "name" %}
