@@ -30,7 +30,7 @@
   link: "/md2html-action"
   repo: "https://github.com/CameronBrooks11/md2html-action"
   description: "A GitHub Action for converting Markdown files to HTML."
-- name: CarbonFiber-Theme
+- name: carbonfiber-theme
   link: "/CarbonFiber-Theme"
   repo: "https://github.com/CameronBrooks11/CarbonFiber-Theme"
   description: "A refined dark theme featuring carbon fiber texture."
