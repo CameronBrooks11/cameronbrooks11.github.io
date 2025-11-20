@@ -34,3 +34,7 @@
   link: "/CarbonFiber-Theme"
   repo: "https://github.com/CameronBrooks11/CarbonFiber-Theme"
   description: "A refined dark theme featuring carbon fiber texture."
+- name: fiberpath
+  link: "/fiberpath"
+  repo: "https://github.com/CameronBrooks11/fiberpath"
+  description: "Plan, simulate, and execute filament-winding jobs for precise composite parts."
