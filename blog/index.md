@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Blog
-permalink: /blog/
+title: Writings
+permalink: /writings/
 ---
 
-# Blog
+# Writings
 
 Welcome to my blog, you can find all my posts in the chronological listing below — enjoy!
 
