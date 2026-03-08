@@ -6,7 +6,7 @@ permalink: /writings/
 
 # Writings
 
-Welcome to my blog, you can find all my posts in the chronological listing below — enjoy!
+Welcome to my writings, you can find all my posts in the chronological listing below — enjoy!
 
 <ul>
   {% for post in site.posts %}
@@ -20,4 +20,4 @@ Welcome to my blog, you can find all my posts in the chronological listing below
 
 <br>
 
-> _This blog is also hosted on my dedicated personal at [cameronbrooks.net/blog](https://www.cameronbrooks.net/blog)._
+> _These writings are also hosted on my dedicated personal site at [cameronbrooks.net/writings](https://www.cameronbrooks.net/writings)._
