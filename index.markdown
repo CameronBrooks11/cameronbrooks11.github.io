@@ -24,3 +24,7 @@ Welcome to my GitHub Pages! Browse my project sites below by clicking the titles
   </li>
 {% endfor %}
 </ul>
+
+---
+
+For any inquiries, contact me via my main site at [cameronbrooks.net/contact.html](https://www.cameronbrooks.net/contact.html).
