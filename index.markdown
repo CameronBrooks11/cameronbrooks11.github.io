@@ -5,7 +5,9 @@ title: Home
 
 ## Hi, I’m Cam
 
-Welcome to my GitHub Pages! Browse my project sites below by clicking the titles to visit their sites, or the `</>` links for their repositories.
+This is my GitHub Pages — a directory for my GitHub-hosted project docs and a mirror of my writings. For more about me, visit my main site at [cameronbrooks.net](https://www.cameronbrooks.net).
+
+Browse my project sites below by clicking the titles to visit their sites, or the `</>` links for their repositories.
 
 > See the [Projects Registry](/projects-registry) for the full list.
 

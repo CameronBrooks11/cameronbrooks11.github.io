@@ -3,7 +3,5 @@ main:
     url: /
   - title: Writings
     url: /writings/
-  - title: About
-    url: /about/
   - title: Projects
     url: /projects-registry/
