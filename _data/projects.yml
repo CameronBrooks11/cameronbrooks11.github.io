@@ -38,3 +38,11 @@
   link: "/fiberpath"
   repo: "https://github.com/CameronBrooks11/fiberpath"
   description: "Plan, simulate, and execute filament-winding jobs for precise composite parts."
+- name: sp‑local‑gobridge
+  link: "/super-productivity-local-gobridge"
+  repo: "https://github.com/CameronBrooks11/super-productivity-local-gobridge"
+  description: "Single-binary local automation bridge for Super Productivity — 16 MCP tools, CLI, and host auto-config with zero dependencies."
+- name: sp‑local‑bridge
+  link: "/super-productivity-local-bridge"
+  repo: "https://github.com/CameronBrooks11/super-productivity-local-bridge"
+  description: "Python local automation bridge for Super Productivity (legacy — superseded by the Go version)."
