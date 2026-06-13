@@ -46,3 +46,23 @@
   link: "/super-productivity-local-bridge"
   repo: "https://github.com/CameronBrooks11/super-productivity-local-bridge"
   description: "Python local automation bridge for Super Productivity (legacy — superseded by the Go version)."
+- name: gerberdiff
+  link: "/gerberdiff"
+  repo: "https://github.com/CameronBrooks11/gerberdiff"
+  description: "A Gerber/Excellon PCB diff tool with raster overlays and geometry-aware change detection for moved, resized, added, and removed features."
+- name: freeboard
+  link: "/freeboard"
+  repo: "https://github.com/CameronBrooks11/freeboard"
+  description: "A modernized fork of the open-source real-time dashboard builder for IoT and web mashups — Vue 3, GraphQL + PostgreSQL, Docker Compose, and a secure datasource gateway (HTTP/SSE/WebSocket/MQTT)."
+- name: openscad‑web
+  link: "/openscad-web"
+  repo: "https://github.com/CameronBrooks11/openscad-web"
+  description: "A browser-based environment for creating, customizing, and viewing models — runs the OpenSCAD engine in WebAssembly with a built-in editor, customizer, and 3D viewer."
+- name: drag‑chain
+  link: "/drag-chain"
+  repo: "https://github.com/CameronBrooks11/drag-chain"
+  description: "An OpenSCAD library for creating drag chains."
+- name: agent‑policy
+  link: "/agent-policy"
+  repo: "https://github.com/CameronBrooks11/agent-policy"
+  description: "A schema-first policy generator for coding-agent repo instructions and guardrails."
