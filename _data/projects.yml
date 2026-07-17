@@ -66,3 +66,7 @@
   link: "/agent-policy"
   repo: "https://github.com/CameronBrooks11/agent-policy"
   description: "A schema-first policy generator for coding-agent repo instructions and guardrails."
+- name: orlab
+  link: "/orlab"
+  repo: "https://github.com/CameronBrooks11/orlab"
+  description: " OrLab is a Python module designed for interacting and scripting with OpenRocket, with enhanced capabilities for simulations and computational workflows."
