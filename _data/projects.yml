@@ -35,8 +35,8 @@
   repo: "https://github.com/CameronBrooks11/CarbonFiber-Theme"
   description: "A refined dark theme featuring carbon fiber texture."
 - name: fiberpath
-  link: "/fiberpath"
-  repo: "https://github.com/CameronBrooks11/fiberpath"
+  link: "https://fiberpath.org/fiberpath/"
+  repo: "https://github.com/fiberpath/fiberpath"
   description: "Plan, simulate, and execute filament-winding jobs for precise composite parts."
 - name: sp‑local‑gobridge
   link: "/super-productivity-local-gobridge"
@@ -47,8 +47,8 @@
   repo: "https://github.com/CameronBrooks11/super-productivity-local-bridge"
   description: "Python local automation bridge for Super Productivity (legacy — superseded by the Go version)."
 - name: gerberdiff
-  link: "/gerberdiff"
-  repo: "https://github.com/CameronBrooks11/gerberdiff"
+  link: "https://heibench.com/gerberdiff/"
+  repo: "https://github.com/heibench/gerberdiff"
   description: "A Gerber/Excellon PCB diff tool with raster overlays and geometry-aware change detection for moved, resized, added, and removed features."
 - name: freeboard
   link: "/freeboard"
@@ -67,6 +67,18 @@
   repo: "https://github.com/CameronBrooks11/agent-policy"
   description: "A schema-first policy generator for coding-agent repo instructions and guardrails."
 - name: orlab
-  link: "/orlab"
-  repo: "https://github.com/CameronBrooks11/orlab"
+  link: "https://heibench.com/orlab/"
+  repo: "https://github.com/heibench/orlab"
   description: " OrLab is a Python module designed for interacting and scripting with OpenRocket, with enhanced capabilities for simulations and computational workflows."
+- name: pyzot
+  link: "/pyzot"
+  repo: "https://github.com/CameronBrooks11/pyzot"
+  description: "A command-line interface for a local Zotero library."
+- name: zotgo
+  link: "/zotgo"
+  repo: "https://github.com/CameronBrooks11/zotgo"
+  description: "A single, zero-dependency Go CLI (zot) that drives a running Zotero 7+ library over its HTTP Local API."
+- name: longquiet
+  link: "/longquiet"
+  repo: "https://github.com/CameronBrooks11/longquiet"
+  description: "A simple, customizable app for mixing ambient sounds and music to help you focus, relax, or sleep."
