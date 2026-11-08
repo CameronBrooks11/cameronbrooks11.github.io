@@ -1,0 +1,32 @@
+- name: FAST Research Group
+  link: "https://uwo-fast.github.io/"
+  github: "https://github.com/uwo-fast"
+  description: "Free Appropriate Sustainable Technology research group at Western University — open-source scientific and lab hardware."
+- name: FEAST
+  link: "https://feastorg.github.io/"
+  github: "https://github.com/feastorg"
+  description: "An ecosystem of open-source hardware, software, tools, and documentation for rapidly creating modular devices."
+- name: Anolis
+  link: "https://anolishq.github.io/"
+  github: "https://github.com/anolishq"
+  description: "A capability-oriented machine control runtime, developed and validated against FEAST hardware."
+- name: heibench
+  link: "https://heibench.com/"
+  github: "https://github.com/heibench"
+  description: "Hardware Engineering Integration bench — put existing engineering engines under program control, and check what they produce against declared intent."
+- name: FiberPath
+  link: "https://fiberpath.org/"
+  github: "https://github.com/fiberpath"
+  description: "Planning, simulating, and executing filament-winding jobs for precise, repeatable composite parts."
+- name: baseliner
+  link: "https://baselinerhq.github.io/"
+  github: "https://github.com/baselinerhq"
+  description: "Portable assessment-as-code for repository fleets — one binary, no server, no app."
+- name: Integrum Systems
+  link: "https://integrumsys.com/"
+  github: "https://github.com/integrumsys"
+  description: "The systems-integration company I founded."
+- name: Konnexio
+  link: "https://konnexio.com/"
+  github: "https://github.com/konnexio-inc"
+  description: "Custom machine builder in London, Ontario, specializing in adapto™ modular assembly line construction."
