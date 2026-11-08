@@ -29,4 +29,25 @@ Browse my project sites below by clicking the titles to visit their sites, or th
 
 ---
 
+## Organizations
+
+Organizations I own or help run. Click a name for its site, or `</>` for its GitHub.
+
+<ul>
+{% for org in site.data.orgs %}
+  <li style="margin-bottom: 0.75em;">
+    <strong>
+      <a href="{{ org.link }}">{{ org.name }}</a>
+      <a href="{{ org.github }}" title="GitHub Organization"
+         style="font-size: 0.75em; vertical-align: super; text-decoration: none; margin-left: 0.25em;">&lt;/&gt;</a>
+    </strong>
+    <p style="margin: 0.2em 0 0.2em;">
+      {{ org.description }}
+    </p>
+  </li>
+{% endfor %}
+</ul>
+
+---
+
 For any inquiries, contact me via my main site at [cameronbrooks.net/contact.html](https://www.cameronbrooks.net/contact.html).
