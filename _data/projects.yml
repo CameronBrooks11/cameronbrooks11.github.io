@@ -41,11 +41,11 @@
 - name: sp‑local‑gobridge
   link: "/super-productivity-local-gobridge"
   repo: "https://github.com/CameronBrooks11/super-productivity-local-gobridge"
-  description: "Single-binary local automation bridge for Super Productivity — 16 MCP tools, CLI, and host auto-config with zero dependencies."
+  description: "Single-binary local automation bridge for Super Productivity: 16 MCP tools, CLI, and host auto-config with zero dependencies."
 - name: sp‑local‑bridge
   link: "/super-productivity-local-bridge"
   repo: "https://github.com/CameronBrooks11/super-productivity-local-bridge"
-  description: "Python local automation bridge for Super Productivity (legacy — superseded by the Go version)."
+  description: "Python local automation bridge for Super Productivity (legacy, superseded by the Go version)."
 - name: gerberdiff
   link: "https://heibench.com/gerberdiff/"
   repo: "https://github.com/heibench/gerberdiff"
@@ -53,11 +53,11 @@
 - name: freeboard
   link: "/freeboard"
   repo: "https://github.com/CameronBrooks11/freeboard"
-  description: "A modernized fork of the open-source real-time dashboard builder for IoT and web mashups — Vue 3, GraphQL + PostgreSQL, Docker Compose, and a secure datasource gateway (HTTP/SSE/WebSocket/MQTT)."
+  description: "A modernized fork of the real-time IoT dashboard builder: Vue 3, GraphQL, PostgreSQL, Docker Compose, secure HTTP/SSE/WebSocket/MQTT datasource gateway."
 - name: openscad‑web
   link: "/openscad-web"
   repo: "https://github.com/CameronBrooks11/openscad-web"
-  description: "A browser-based environment for creating, customizing, and viewing models — runs the OpenSCAD engine in WebAssembly with a built-in editor, customizer, and 3D viewer."
+  description: "A browser-based OpenSCAD environment that runs the engine in WebAssembly, with a built-in editor, customizer, and 3D viewer."
 - name: drag‑chain
   link: "/drag-chain"
   repo: "https://github.com/CameronBrooks11/drag-chain"
