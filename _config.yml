@@ -49,6 +49,7 @@ theme_options:
 exclude:
   - _posts/LICENSE
   - _posts/README.md
+  - scripts/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
