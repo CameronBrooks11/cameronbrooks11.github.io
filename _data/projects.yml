@@ -82,3 +82,11 @@
   link: "/longquiet"
   repo: "https://github.com/CameronBrooks11/longquiet"
   description: "A simple, customizable app for mixing ambient sounds and music to help you focus, relax, or sleep."
+- name: abyssarium
+  link: "/abyssarium"
+  repo: "https://github.com/CameronBrooks11/abyssarium"
+  description: "A chaotic procedural aquarium where strange creatures evolve, swarm, and react to disturbances in a simulated fluid tank — a testbed for generative AI tools and workflows, not a real project."
+- name: transistor‑tester‑m12864
+  link: "/transistor-tester-m12864"
+  repo: "https://github.com/CameronBrooks11/transistor-tester-m12864"
+  description: "Resources for the M12864 DIY transistor tester kit."
