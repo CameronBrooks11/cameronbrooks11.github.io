@@ -6,7 +6,7 @@ permalink: /writings/
 
 # Writings
 
-Welcome to my writings, you can find all my posts in the chronological listing below — enjoy!
+Welcome to my writings, you can find all my posts in the chronological listing below. Enjoy!
 
 <ul>
   {% for post in site.posts %}
