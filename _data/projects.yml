@@ -90,3 +90,27 @@
   link: "/transistor-tester-m12864"
   repo: "https://github.com/CameronBrooks11/transistor-tester-m12864"
   description: "Resources for the M12864 DIY transistor tester kit."
+- name: scadbatch
+  link: "/scadbatch"
+  repo: "https://github.com/CameronBrooks11/scadbatch"
+  description: "Batch export models from parametric OpenSCAD designs using CSV or Customizer JSON parameter sets. CLI, GUI and Python API."
+- name: scadman
+  link: "/scadman"
+  repo: "https://github.com/CameronBrooks11/scadman"
+  description: "A project-oriented package and dependency manager for OpenSCAD libraries, scripts, and reusable design assets."
+- name: uniTube
+  link: "/uniTube"
+  repo: "https://github.com/CameronBrooks11/uniTube"
+  description: "The Universal Tube Library for OpenSCAD."
+- name: DraftSCAD
+  link: "/DraftSCAD"
+  repo: "https://github.com/CameronBrooks11/DraftSCAD"
+  description: "An OpenSCAD library for dimensioned engineering drawings: lines, dimensions, hole centers, leader lines, and customizable title blocks."
+- name: tessella
+  link: "/tessella"
+  repo: "https://github.com/CameronBrooks11/tessella"
+  description: "An OpenSCAD library for generating regular and semi-regular tessellations, providing tools to design intricate tiling patterns with polygons."
+- name: wikisync
+  link: "/wikisync"
+  repo: "https://github.com/CameronBrooks11/wikisync"
+  description: "CLI to work with MediaWiki/Appropedia pages locally: pull pages as wikitext, edit, diff, and push back under your account."
