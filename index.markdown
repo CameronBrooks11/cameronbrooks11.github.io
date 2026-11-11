@@ -12,7 +12,7 @@ Browse my project sites below by clicking the titles to visit their sites, or th
 > See the [Projects Registry](/projects-registry) for the full list.
 
 <ul>
-{% assign sorted_projects = site.data.projects | sort: "name" %}
+{% assign sorted_projects = site.data.projects | sort_natural: "name" %}
 {% for project in sorted_projects %}
   <li style="margin-bottom: 0.75em;">
     <strong>
