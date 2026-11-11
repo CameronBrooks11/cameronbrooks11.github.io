@@ -73,7 +73,7 @@
 - name: pyzot
   link: "/pyzot"
   repo: "https://github.com/CameronBrooks11/pyzot"
-  description: "A command-line interface for a local Zotero library."
+  description: "Python command-line interface for a local Zotero library (legacy, superseded by zotgo)."
 - name: zotgo
   link: "/zotgo"
   repo: "https://github.com/CameronBrooks11/zotgo"
