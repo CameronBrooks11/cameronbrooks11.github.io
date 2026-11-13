@@ -26,7 +26,7 @@ https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad
 
 https://github.com/CameronBrooks11/infinity-cube-scad
 https://github.com/CameronBrooks11/TheTiny
-https://github.com/CameronBrooks11/BattPackSCAD
+https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD)
 https://github.com/CameronBrooks11/load-cell-scad
 https://github.com/CameronBrooks11/honeycomb-wall-scad
 https://github.com/CameronBrooks11/geodesic-dome
