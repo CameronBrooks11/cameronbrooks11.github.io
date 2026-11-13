@@ -7,8 +7,6 @@ Repos to clean up, give a docs site, and list on the home page. Status as of
 
 ### scad
 
-https://github.com/CameronBrooks11/ChristmasNameOrnament
-https://github.com/CameronBrooks11/snowflakefiniy
 https://github.com/CameronBrooks11/snapfit-scad
 https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork)
 https://github.com/CameronBrooks11/parametric-electrical-enclosure
@@ -34,6 +32,8 @@ _revise md2html action styles_
 ## In progress
 
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad): cleanup PR merged, board, library and template PRs to follow
+https://github.com/CameronBrooks11/ChristmasNameOrnament: cleanup PR #1 open
+https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy): cleanup PR #1 open
 
 ## Cleaned up, no docs site yet
 
