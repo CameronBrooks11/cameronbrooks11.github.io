@@ -14,6 +14,10 @@
   link: "https://fiberpath.org/"
   github: "https://github.com/fiberpath"
   description: "Planning, simulating, and executing filament-winding jobs for precise, repeatable composite parts."
+- name: burnoutlabs
+  link: "https://github.com/burnoutlabs"
+  github: "https://github.com/burnoutlabs"
+  description: "My high-power rocketry work: airbrakes, flight computers, vehicle design, flight data, and the tools built along the way."
 - name: Integrum Systems Inc.
   link: "https://integrumsys.com/"
   github: "https://github.com/integrumsys"
