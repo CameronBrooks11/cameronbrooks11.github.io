@@ -114,3 +114,7 @@
   link: "/wikisync"
   repo: "https://github.com/CameronBrooks11/wikisync"
   description: "CLI to work with MediaWiki/Appropedia pages locally: pull pages as wikitext, edit, diff, and push back under your account."
+- name: pyside6‑gui‑template
+  link: "/pyside6-gui-template"
+  repo: "https://github.com/CameronBrooks11/pyside6-gui-template"
+  description: "Flat, frameless desktop GUI template built with PySide6 and Qt Designer."
