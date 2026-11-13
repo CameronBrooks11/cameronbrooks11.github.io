@@ -8,10 +8,7 @@ Repos to clean up, give a docs site, and list on the home page. Status as of
 ### scad
 
 https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork)
-https://github.com/CameronBrooks11/honeycomb-wall-scad
 https://github.com/CameronBrooks11/infinity-cube-scad
-https://github.com/CameronBrooks11/geodesic-polyhedron
-https://github.com/CameronBrooks11/geodesic-dome
 https://github.com/CameronBrooks11/TheTiny
 https://github.com/CameronBrooks11/BattPackSCAD
 https://github.com/CameronBrooks11/load-cell-scad
@@ -31,6 +28,9 @@ https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad
 
 ## Cleaned up, no docs site yet
 
+https://github.com/CameronBrooks11/honeycomb-wall-scad
+https://github.com/CameronBrooks11/geodesic-dome
+https://github.com/CameronBrooks11/octsphere-scad (was geodesic-polyhedron)
 https://github.com/CameronBrooks11/ChristmasNameOrnament
 https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy)
 https://github.com/CameronBrooks11/snapfit-scad
