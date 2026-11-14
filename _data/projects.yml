@@ -114,6 +114,30 @@
   link: "/voronoi-scad"
   repo: "https://github.com/CameronBrooks11/voronoi-scad"
   description: "Voronoi patterns in OpenSCAD: rounded cells around placed or seeded sites, for perforated panels, tiles and polygon fills."
+- name: L-System-SCAD
+  link: "/L-System-SCAD"
+  repo: "https://github.com/CameronBrooks11/L-System-SCAD"
+  description: "L-systems in OpenSCAD: fractal and space-filling curves and 3D trees from rewriting rules, with a catalog of over 100 grammars."
+- name: bayonet-lock-scad
+  link: "/bayonet-lock-scad"
+  repo: "https://github.com/CameronBrooks11/bayonet-lock-scad"
+  description: "Parametric bayonet lock for OpenSCAD: pin and lock halves with any number of pins, either turn direction, and keyed patterns."
+- name: load-cell-scad
+  link: "/load-cell-scad"
+  repo: "https://github.com/CameronBrooks11/load-cell-scad"
+  description: "OpenSCAD models of bar load cells and HX711 amplifier boards, for designing scales and mounts around them."
+- name: octsphere-scad
+  link: "/octsphere-scad"
+  repo: "https://github.com/CameronBrooks11/octsphere-scad"
+  description: "Geodesic octahedral sphere for OpenSCAD: a drop-in sphere() with even triangles and flat polygon equators in all three planes."
+- name: linkmail-scad
+  link: "/linkmail-scad"
+  repo: "https://github.com/CameronBrooks11/linkmail-scad"
+  description: "Print-in-place sheets of interlocking links, like chainmail, in OpenSCAD."
+- name: TheTiny
+  link: "/TheTiny"
+  repo: "https://github.com/CameronBrooks11/TheTiny"
+  description: "Parametric tiny house frame in OpenSCAD: floor, stud walls and gable roof from any size, with a lumber cut list."
 - name: wikisync
   link: "/wikisync"
   repo: "https://github.com/CameronBrooks11/wikisync"
