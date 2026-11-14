@@ -110,6 +110,10 @@
   link: "/tessella"
   repo: "https://github.com/CameronBrooks11/tessella"
   description: "An OpenSCAD library for generating regular and semi-regular tessellations, providing tools to design intricate tiling patterns with polygons."
+- name: voronoi-scad
+  link: "/voronoi-scad"
+  repo: "https://github.com/CameronBrooks11/voronoi-scad"
+  description: "Voronoi patterns in OpenSCAD: rounded cells around placed or seeded sites, for perforated panels, tiles and polygon fills."
 - name: wikisync
   link: "/wikisync"
   repo: "https://github.com/CameronBrooks11/wikisync"
