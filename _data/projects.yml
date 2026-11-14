@@ -138,6 +138,38 @@
   link: "/TheTiny"
   repo: "https://github.com/CameronBrooks11/TheTiny"
   description: "Parametric tiny house frame in OpenSCAD: floor, stud walls and gable roof from any size, with a lumber cut list."
+- name: infinity-cube-scad
+  link: "/infinity-cube-scad"
+  repo: "https://github.com/CameronBrooks11/infinity-cube-scad"
+  description: "Print-in-place infinity cube in OpenSCAD, with hinges that scale with the cube."
+- name: battpack-scad
+  link: "/battpack-scad"
+  repo: "https://github.com/CameronBrooks11/battpack-scad"
+  description: "Snap-together holders for cylindrical battery cells in OpenSCAD, with a box and cover for the pack."
+- name: honeycomb-wall-scad
+  link: "/honeycomb-wall-scad"
+  repo: "https://github.com/CameronBrooks11/honeycomb-wall-scad"
+  description: "Parametric honeycomb storage wall in OpenSCAD, with snap-in inserts, clips and attachments that share one set of sizes."
+- name: geodesic-dome
+  link: "/geodesic-dome"
+  repo: "https://github.com/CameronBrooks11/geodesic-dome"
+  description: "Printable pipe hubs for geodesic domes in OpenSCAD: sockets from the real dome geometry, with hub and strut counts and cut lengths."
+- name: parametric-wall-bin
+  link: "/parametric-wall-bin"
+  repo: "https://github.com/CameronBrooks11/parametric-wall-bin"
+  description: "Parametric open bin in OpenSCAD that screws to a wall, with a label engraved on its flange."
+- name: pixelArtSCAD
+  link: "/pixelArtSCAD"
+  repo: "https://github.com/CameronBrooks11/pixelArtSCAD"
+  description: "OpenSCAD library for 3D pixel art from character arrays, with a PNG converter."
+- name: parametric-funnel
+  link: "/parametric-funnel"
+  repo: "https://github.com/CameronBrooks11/parametric-funnel"
+  description: "Two parametric funnels in OpenSCAD: a plain one, and a solid one for vase mode with an air gap and fins."
+- name: bdc-motor-scad
+  link: "/bdc-motor-scad"
+  repo: "https://github.com/CameronBrooks11/bdc-motor-scad"
+  description: "OpenSCAD model of a brushed DC hobby motor, 130 size by default, with the sizes to design mounts and pockets around it."
 - name: wikisync
   link: "/wikisync"
   repo: "https://github.com/CameronBrooks11/wikisync"

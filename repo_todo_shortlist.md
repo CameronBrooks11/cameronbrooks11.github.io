@@ -21,24 +21,24 @@ https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the 
 
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0)
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
-https://github.com/CameronBrooks11/infinity-cube-scad
-https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD)
-https://github.com/CameronBrooks11/honeycomb-wall-scad
-https://github.com/CameronBrooks11/geodesic-dome
 https://github.com/CameronBrooks11/ChristmasNameOrnament
 https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy)
 https://github.com/CameronBrooks11/snapfit-scad
 https://github.com/CameronBrooks11/parametric-electrical-enclosure
 https://github.com/CameronBrooks11/parametric-junctionbox
-https://github.com/CameronBrooks11/parametric-wall-bin
-https://github.com/CameronBrooks11/pixelArtSCAD
-https://github.com/CameronBrooks11/bdc-motor-scad
-https://github.com/CameronBrooks11/parametric-funnel
 https://github.com/CameronBrooks11/MQGasSensors
 https://github.com/CameronBrooks11/RPi_Hat_Template
 
 ## Listed on the home page
 
+https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
+https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
+https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip needs BOSL2, so it isn't on it)
+https://github.com/CameronBrooks11/geodesic-dome (MIT since #2; site from the docs engine)
+https://github.com/CameronBrooks11/parametric-wall-bin (site from the docs engine)
+https://github.com/CameronBrooks11/pixelArtSCAD (site from the docs engine)
+https://github.com/CameronBrooks11/parametric-funnel (site from the docs engine)
+https://github.com/CameronBrooks11/bdc-motor-scad (site from the docs engine)
 https://github.com/CameronBrooks11/L-System-SCAD (site from the docs engine)
 https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0; site from the docs engine)
 https://github.com/CameronBrooks11/load-cell-scad (site from the docs engine)
