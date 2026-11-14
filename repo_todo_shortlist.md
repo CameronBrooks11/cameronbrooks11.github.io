@@ -21,7 +21,6 @@ https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad
 ## Cleaned up, no docs site yet
 
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
-https://github.com/CameronBrooks11/voronoi-scad (MIT rewrite of the Voronoi-Diagram-SCAD fork)
 https://github.com/CameronBrooks11/L-System-SCAD
 https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0)
 https://github.com/CameronBrooks11/infinity-cube-scad
@@ -46,6 +45,7 @@ https://github.com/CameronBrooks11/RPi_Hat_Template
 
 ## Listed on the home page
 
+https://github.com/CameronBrooks11/voronoi-scad (site built by the just-the-docs-template-openscad engine, its first user)
 https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, #18 and #19)
 https://github.com/CameronBrooks11/just-the-docs-template-openscad
 https://github.com/CameronBrooks11/uniTube
