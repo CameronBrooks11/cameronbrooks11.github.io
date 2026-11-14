@@ -15,7 +15,7 @@ None left.
 
 ## In progress
 
-https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the GRBL-Post fork; awaiting a UPG-2 compile and air-cut test, issue #1)
+https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the GRBL-Post fork; awaiting a UPG-2 compile and air-cut test, CameronBrooks11/solidworks-cam-grbl-post#1)
 
 ## Cleaned up, no docs site yet
 
@@ -46,7 +46,7 @@ https://github.com/CameronBrooks11/octsphere-scad (was geodesic-polyhedron; site
 https://github.com/CameronBrooks11/linkmail-scad (site from the docs engine)
 https://github.com/CameronBrooks11/TheTiny (site from the docs engine, the model on its own page)
 https://github.com/CameronBrooks11/voronoi-scad (site built by the just-the-docs-template-openscad engine, its first user)
-https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, #18 and #19)
+https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, CameronBrooks11/md2html-action#18 and CameronBrooks11/md2html-action#19)
 https://github.com/CameronBrooks11/just-the-docs-template-openscad
 https://github.com/CameronBrooks11/uniTube
 https://github.com/CameronBrooks11/DraftSCAD
