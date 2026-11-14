@@ -16,10 +16,10 @@ None left.
 ## In progress
 
 https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the GRBL-Post fork; awaiting a UPG-2 compile and air-cut test, issue #1)
-https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad): cleanup PR merged, board, library and template PRs to follow
 
 ## Cleaned up, no docs site yet
 
+https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0)
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
 https://github.com/CameronBrooks11/L-System-SCAD
 https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0)
