@@ -15,12 +15,12 @@ None left.
 
 ## In progress
 
-https://github.com/CameronBrooks11/md2html-action: style fixes open as #18 (light-base default theme) and #19 (footnotes)
 https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the GRBL-Post fork; awaiting a UPG-2 compile and air-cut test, issue #1)
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad): cleanup PR merged, board, library and template PRs to follow
 
 ## Cleaned up, no docs site yet
 
+https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, #18 and #19)
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
 https://github.com/CameronBrooks11/voronoi-scad (MIT rewrite of the Voronoi-Diagram-SCAD fork)
 https://github.com/CameronBrooks11/L-System-SCAD
