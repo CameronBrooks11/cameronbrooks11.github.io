@@ -23,3 +23,25 @@ layout: page
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+<script>
+  // GitHub Pages serves a project site only at its repo's exact case, and sends
+  // every other spelling here. Send /ilox/... on to /iLOX/..., for the projects
+  // listed in _data/projects.yml.
+  (function () {
+    var links = {{ site.data.projects | map: "link" | jsonify }};
+    var parts = location.pathname.split("/");
+    var first = (parts[1] || "").toLowerCase();
+    if (!first) return;
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (typeof link !== "string" || link.charAt(0) !== "/") continue;
+      var name = link.split("/")[1];
+      if (name && name.toLowerCase() === first && name !== parts[1]) {
+        parts[1] = name;
+        location.replace(parts.join("/") + location.search + location.hash);
+        return;
+      }
+    }
+  })();
+</script>
