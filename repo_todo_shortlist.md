@@ -7,7 +7,7 @@ Repos to clean up, give a docs site, and list on the home page. Status as of
 
 ### scad
 
-https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork)
+None left.
 
 ### Other
 
@@ -22,6 +22,7 @@ https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad
 
 ## Cleaned up, no docs site yet
 
+https://github.com/CameronBrooks11/voronoi-scad (MIT rewrite of the Voronoi-Diagram-SCAD fork)
 https://github.com/CameronBrooks11/L-System-SCAD
 https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0)
 https://github.com/CameronBrooks11/infinity-cube-scad
@@ -57,6 +58,8 @@ https://github.com/heibench/orlab
 ## Archived
 
 https://github.com/CameronBrooks11/GeoGrow
+https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork; replaced by voronoi-scad)
+https://github.com/CameronBrooks11/MQGasSensorsAnalysis (work moved to MQGasSensors)
 
 ## Moved
 
