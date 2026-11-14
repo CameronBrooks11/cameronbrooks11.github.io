@@ -33,7 +33,7 @@ https://github.com/CameronBrooks11/parametric-electrical-enclosure (MIT redesign
 https://github.com/CameronBrooks11/parametric-junctionbox (MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
-https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip needs BOSL2, so it isn't on it)
+https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip, with BOSL2 staged by the engine)
 https://github.com/CameronBrooks11/geodesic-dome (MIT since #2; site from the docs engine)
 https://github.com/CameronBrooks11/parametric-wall-bin (site from the docs engine)
 https://github.com/CameronBrooks11/pixelArtSCAD (site from the docs engine)
