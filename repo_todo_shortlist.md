@@ -21,16 +21,16 @@ https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the 
 
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0)
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
-https://github.com/CameronBrooks11/ChristmasNameOrnament
-https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy)
-https://github.com/CameronBrooks11/snapfit-scad
-https://github.com/CameronBrooks11/parametric-electrical-enclosure
-https://github.com/CameronBrooks11/parametric-junctionbox
 https://github.com/CameronBrooks11/MQGasSensors
 https://github.com/CameronBrooks11/RPi_Hat_Template
 
 ## Listed on the home page
 
+https://github.com/CameronBrooks11/ChristmasNameOrnament (MIT rewrite; site from the docs engine)
+https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy; MIT rewrite; site from the docs engine)
+https://github.com/CameronBrooks11/snapfit-scad (MIT rewrite; site from the docs engine)
+https://github.com/CameronBrooks11/parametric-electrical-enclosure (MIT redesign; site from the docs engine)
+https://github.com/CameronBrooks11/parametric-junctionbox (MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
 https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip needs BOSL2, so it isn't on it)

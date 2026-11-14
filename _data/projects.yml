@@ -170,6 +170,26 @@
   link: "/bdc-motor-scad"
   repo: "https://github.com/CameronBrooks11/bdc-motor-scad"
   description: "OpenSCAD model of a brushed DC hobby motor, 130 size by default, with the sizes to design mounts and pockets around it."
+- name: ChristmasNameOrnament
+  link: "/ChristmasNameOrnament"
+  repo: "https://github.com/CameronBrooks11/ChristmasNameOrnament"
+  description: "A flat Christmas ball ornament in OpenSCAD with a name across it and snowflakes, exported part by part for multicolour printing."
+- name: infinite-snowflakes
+  link: "/infinite-snowflakes"
+  repo: "https://github.com/CameronBrooks11/infinite-snowflakes"
+  description: "Snowflake decorations from a seed in OpenSCAD: every seed a different one-piece flake, with tip rings and links to join them."
+- name: snapfit-scad
+  link: "/snapfit-scad"
+  repo: "https://github.com/CameronBrooks11/snapfit-scad"
+  description: "OpenSCAD library for round, slotted snap-fit pins and the holes they snap into, printed without supports."
+- name: parametric-electrical-enclosure
+  link: "/parametric-electrical-enclosure"
+  repo: "https://github.com/CameronBrooks11/parametric-electrical-enclosure"
+  description: "Parametric waterproof electronics enclosure in OpenSCAD: groove-and-ridge seal with a gasket, screwed corners, gland holes and wall mounts."
+- name: parametric-junctionbox
+  link: "/parametric-junctionbox"
+  repo: "https://github.com/CameronBrooks11/parametric-junctionbox"
+  description: "Parametric electrical junction box in OpenSCAD, with gland holes, a screwed lid, a reducer bushing and a hole blocker."
 - name: wikisync
   link: "/wikisync"
   repo: "https://github.com/CameronBrooks11/wikisync"
