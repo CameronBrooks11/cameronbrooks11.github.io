@@ -21,15 +21,10 @@ https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the 
 
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0)
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
-https://github.com/CameronBrooks11/L-System-SCAD
-https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0)
 https://github.com/CameronBrooks11/infinity-cube-scad
-https://github.com/CameronBrooks11/TheTiny
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD)
-https://github.com/CameronBrooks11/load-cell-scad
 https://github.com/CameronBrooks11/honeycomb-wall-scad
 https://github.com/CameronBrooks11/geodesic-dome
-https://github.com/CameronBrooks11/octsphere-scad (was geodesic-polyhedron)
 https://github.com/CameronBrooks11/ChristmasNameOrnament
 https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy)
 https://github.com/CameronBrooks11/snapfit-scad
@@ -39,12 +34,17 @@ https://github.com/CameronBrooks11/parametric-wall-bin
 https://github.com/CameronBrooks11/pixelArtSCAD
 https://github.com/CameronBrooks11/bdc-motor-scad
 https://github.com/CameronBrooks11/parametric-funnel
-https://github.com/CameronBrooks11/linkmail-scad
 https://github.com/CameronBrooks11/MQGasSensors
 https://github.com/CameronBrooks11/RPi_Hat_Template
 
 ## Listed on the home page
 
+https://github.com/CameronBrooks11/L-System-SCAD (site from the docs engine)
+https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0; site from the docs engine)
+https://github.com/CameronBrooks11/load-cell-scad (site from the docs engine)
+https://github.com/CameronBrooks11/octsphere-scad (was geodesic-polyhedron; site from the docs engine)
+https://github.com/CameronBrooks11/linkmail-scad (site from the docs engine)
+https://github.com/CameronBrooks11/TheTiny (site from the docs engine, the model on its own page)
 https://github.com/CameronBrooks11/voronoi-scad (site built by the just-the-docs-template-openscad engine, its first user)
 https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, #18 and #19)
 https://github.com/CameronBrooks11/just-the-docs-template-openscad
