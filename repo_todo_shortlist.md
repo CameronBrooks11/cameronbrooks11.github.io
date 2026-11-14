@@ -12,12 +12,12 @@ None left.
 ### Other
 
 https://github.com/CameronBrooks11/build123d-template
-https://github.com/CameronBrooks11/GRBL-Post (fork)
 
 _revise md2html action styles_
 
 ## In progress
 
+https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the GRBL-Post fork; awaiting a UPG-2 compile and air-cut test, issue #1)
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad): cleanup PR merged, board, library and template PRs to follow
 
 ## Cleaned up, no docs site yet
@@ -59,6 +59,7 @@ https://github.com/heibench/orlab
 
 https://github.com/CameronBrooks11/GeoGrow
 https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork; replaced by voronoi-scad)
+https://github.com/CameronBrooks11/GRBL-Post (fork; replaced by solidworks-cam-grbl-post)
 https://github.com/CameronBrooks11/MQGasSensorsAnalysis (work moved to MQGasSensors)
 
 ## Moved
