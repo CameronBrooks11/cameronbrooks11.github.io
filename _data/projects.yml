@@ -98,9 +98,9 @@
   link: "/scadman"
   repo: "https://github.com/CameronBrooks11/scadman"
   description: "A project-oriented package and dependency manager for OpenSCAD libraries, scripts, and reusable design assets."
-- name: uniTube
-  link: "/uniTube"
-  repo: "https://github.com/CameronBrooks11/uniTube"
+- name: tube-routing-scad
+  link: "/tube-routing-scad"
+  repo: "https://github.com/CameronBrooks11/tube-routing-scad"
   description: "The Universal Tube Library for OpenSCAD."
 - name: DraftSCAD
   link: "/DraftSCAD"
