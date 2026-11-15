@@ -48,7 +48,7 @@ https://github.com/CameronBrooks11/TheTiny (site from the docs engine, the model
 https://github.com/CameronBrooks11/voronoi-scad (site built by the just-the-docs-template-openscad engine, its first user)
 https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, CameronBrooks11/md2html-action#18 and CameronBrooks11/md2html-action#19)
 https://github.com/CameronBrooks11/just-the-docs-template-openscad
-https://github.com/CameronBrooks11/uniTube
+https://github.com/CameronBrooks11/tube-routing-scad
 https://github.com/CameronBrooks11/DraftSCAD
 https://github.com/CameronBrooks11/tessella
 https://github.com/CameronBrooks11/scadbatch (was OpenSCAD-Batch-Export)
