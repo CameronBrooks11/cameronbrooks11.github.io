@@ -29,7 +29,7 @@
 - name: heibench
   link: "https://heibench.com/"
   github: "https://github.com/heibench"
-  description: "Hardware Engineering Integration bench: drive existing engineering engines programmatically and check output against declared intent."
+  description: "Open tools for scientific and technical workflows: drive the engine, check the result."
 - name: baseliner
   link: "https://baselinerhq.github.io/"
   github: "https://github.com/baselinerhq"

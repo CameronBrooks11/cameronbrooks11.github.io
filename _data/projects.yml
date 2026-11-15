@@ -75,8 +75,8 @@
   repo: "https://github.com/CameronBrooks11/pyzot"
   description: "Python command-line interface for a local Zotero library (legacy, superseded by zotgo)."
 - name: zotgo
-  link: "/zotgo"
-  repo: "https://github.com/CameronBrooks11/zotgo"
+  link: "https://heibench.com/zotgo/"
+  repo: "https://github.com/heibench/zotgo"
   description: "A single, zero-dependency Go CLI (zot) that drives a running Zotero 7+ library over its HTTP Local API."
 - name: longquiet
   link: "/longquiet"
@@ -191,8 +191,8 @@
   repo: "https://github.com/CameronBrooks11/parametric-junctionbox"
   description: "Parametric electrical junction box in OpenSCAD, with gland holes, a screwed lid, a reducer bushing and a hole blocker."
 - name: wikisync
-  link: "/wikisync"
-  repo: "https://github.com/CameronBrooks11/wikisync"
+  link: "https://heibench.com/wikisync/"
+  repo: "https://github.com/heibench/wikisync"
   description: "CLI to work with MediaWiki/Appropedia pages locally: pull pages as wikitext, edit, diff, and push back under your account."
 - name: pyside6‑gui‑template
   link: "/pyside6-gui-template"

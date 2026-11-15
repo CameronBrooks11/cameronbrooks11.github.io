@@ -44,4 +44,22 @@ layout: page
       }
     }
   })();
+
+  // A project whose site moved off this domain (zotgo and wikisync to
+  // heibench.com) has an absolute link in _data/projects.yml. Send its old
+  // /<name>/... path there, keeping the rest of the path.
+  (function () {
+    var projects = {{ site.data.projects | jsonify }};
+    var parts = location.pathname.split("/");
+    var first = (parts[1] || "").toLowerCase();
+    if (!first) return;
+    for (var i = 0; i < projects.length; i++) {
+      var p = projects[i];
+      if (!p || typeof p.link !== "string" || p.link.indexOf("https://") !== 0) continue;
+      if (String(p.name).toLowerCase() !== first) continue;
+      var base = p.link.charAt(p.link.length - 1) === "/" ? p.link : p.link + "/";
+      location.replace(base + parts.slice(2).join("/") + location.search + location.hash);
+      return;
+    }
+  })();
 </script>
