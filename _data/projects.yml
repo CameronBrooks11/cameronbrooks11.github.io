@@ -70,10 +70,6 @@
   link: "https://heibench.com/orlab/"
   repo: "https://github.com/heibench/orlab"
   description: " OrLab is a Python module designed for interacting and scripting with OpenRocket, with enhanced capabilities for simulations and computational workflows."
-- name: pyzot
-  link: "/pyzot"
-  repo: "https://github.com/CameronBrooks11/pyzot"
-  description: "Python command-line interface for a local Zotero library (legacy, superseded by zotgo)."
 - name: zotgo
   link: "https://heibench.com/zotgo/"
   repo: "https://github.com/heibench/zotgo"
