@@ -114,9 +114,9 @@
   link: "/voronoi-scad"
   repo: "https://github.com/CameronBrooks11/voronoi-scad"
   description: "Voronoi patterns in OpenSCAD: rounded cells around placed or seeded sites, for perforated panels, tiles and polygon fills."
-- name: L-System-SCAD
-  link: "/L-System-SCAD"
-  repo: "https://github.com/CameronBrooks11/L-System-SCAD"
+- name: lindenmayer-system-scad
+  link: "/lindenmayer-system-scad"
+  repo: "https://github.com/CameronBrooks11/lindenmayer-system-scad"
   description: "L-systems in OpenSCAD: fractal and space-filling curves and 3D trees from rewriting rules, with a catalog of over 100 grammars."
 - name: bayonet-lock-scad
   link: "/bayonet-lock-scad"
