@@ -34,6 +34,7 @@ https://github.com/CameronBrooks11/iso4796-bottle-scad (v0.1.0; din168 pinned wi
 https://github.com/CameronBrooks11/planetary-gear-fidget (MIT rewrite of the Gear Bearing idea; site from the docs engine)
 https://github.com/CameronBrooks11/feet (MIT; site from the docs engine)
 https://github.com/CameronBrooks11/heat-sink-scad (input checks and tests; pin fins, holes and presets in its issues; site from the docs engine)
+https://github.com/CameronBrooks11/rod-connectors (relicensed GPL-3.0 to MIT; library rewrite with a rod stop; site from the docs engine)
 https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
 https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip, with BOSL2 staged by the engine)
