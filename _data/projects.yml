@@ -186,6 +186,10 @@
   link: "/parametric-junctionbox"
   repo: "https://github.com/CameronBrooks11/parametric-junctionbox"
   description: "Parametric electrical junction box in OpenSCAD, with gland holes, a screwed lid, a reducer bushing and a hole blocker."
+- name: lever-nut-holder-scad
+  link: "/lever-nut-holder-scad"
+  repo: "https://github.com/CameronBrooks11/lever-nut-holder-scad"
+  description: "Printable holders for WAGO 221 lever connectors in OpenSCAD, in one or two rows, flat or standing, with screw tabs."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
@@ -194,3 +198,15 @@
   link: "/pyside6-gui-template"
   repo: "https://github.com/CameronBrooks11/pyside6-gui-template"
   description: "Flat, frameless desktop GUI template built with PySide6 and Qt Designer."
+- name: cubesat-pc104-kicad
+  link: "/cubesat-pc104-kicad"
+  repo: "https://github.com/CameronBrooks11/cubesat-pc104-kicad"
+  description: "KiCad 10 library, project templates and a bus breakout board for CubeSat Kit modules on the PC/104 form factor."
+- name: rpi-hat-kicad
+  link: "/rpi-hat-kicad"
+  repo: "https://github.com/CameronBrooks11/rpi-hat-kicad"
+  description: "KiCad 10 templates for a Raspberry Pi HAT+, through-hole and SMD connector variants, with the ID EEPROM placed and routed."
+- name: mq-gas-sensor
+  link: "/mq-gas-sensor"
+  repo: "https://github.com/CameronBrooks11/mq-gas-sensor"
+  description: "Arduino library for MQ-series gas sensors, with every calibration coefficient traced to its datasheet."

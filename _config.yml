@@ -51,7 +51,6 @@ exclude:
   - _posts/README.md
   - scripts/
   - README.md
-  - old_projects_list.md
   - repo_todo_shortlist.md
 #   - .sass-cache/
 #   - .jekyll-cache/

@@ -1,7 +1,7 @@
 # Repo Todo Shortlist
 
 Repos to clean up, give a docs site, and list on the home page. Status as of
-2026-11-13.
+2026-11-15.
 
 ## To do
 
@@ -19,10 +19,7 @@ https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the 
 
 ## Cleaned up, no docs site yet
 
-https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0)
 https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
-https://github.com/CameronBrooks11/MQGasSensors
-https://github.com/CameronBrooks11/RPi_Hat_Template
 
 ## Listed on the home page
 
@@ -31,6 +28,7 @@ https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy; MIT 
 https://github.com/CameronBrooks11/snapfit-scad (MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/parametric-electrical-enclosure (MIT redesign; site from the docs engine)
 https://github.com/CameronBrooks11/parametric-junctionbox (MIT rewrite; site from the docs engine)
+https://github.com/CameronBrooks11/lever-nut-holder-scad (was levernut-holders; MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
 https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip, with BOSL2 staged by the engine)
@@ -54,6 +52,9 @@ https://github.com/CameronBrooks11/tessella
 https://github.com/CameronBrooks11/scadbatch (was OpenSCAD-Batch-Export)
 https://github.com/CameronBrooks11/awesome-computational-design
 https://github.com/heibench/orlab
+https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0; MkDocs Material site)
+https://github.com/CameronBrooks11/rpi-hat-kicad (was RPi_Hat_Template; HAT+ ID EEPROM; MkDocs Material site)
+https://github.com/CameronBrooks11/mq-gas-sensor (was MQGasSensors; v2.0.0 API; MkDocs Material site)
 
 ## Archived
 
@@ -61,7 +62,7 @@ https://github.com/CameronBrooks11/GeoGrow
 https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork; replaced by voronoi-scad)
 https://github.com/CameronBrooks11/GRBL-Post (fork; replaced by solidworks-cam-grbl-post)
 https://github.com/CameronBrooks11/b123d-template-test (test project from build123d-template)
-https://github.com/CameronBrooks11/MQGasSensorsAnalysis (work moved to MQGasSensors)
+A private analysis repository (archived; its work moved into mq-gas-sensor)
 
 ## Moved
 
