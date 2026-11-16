@@ -262,3 +262,7 @@
   link: "/panel-cube-joints"
   repo: "https://github.com/CameronBrooks11/panel-cube-joints"
   description: "Printed connectors that screw square panels, such as circuit boards, together into boxes, with a tray to stand them in, in OpenSCAD."
+- name: lampshades
+  link: "/lampshades"
+  repo: "https://github.com/CameronBrooks11/lampshades"
+  description: "3D-printable lampshades in OpenSCAD, printed in vase mode, from Matthew Seabright and two other designers."
