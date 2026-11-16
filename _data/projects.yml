@@ -30,9 +30,9 @@
   link: "/md2html-action"
   repo: "https://github.com/CameronBrooks11/md2html-action"
   description: "A GitHub Action for converting Markdown files to HTML."
-- name: carbonfiber-theme
-  link: "/CarbonFiber-Theme"
-  repo: "https://github.com/CameronBrooks11/CarbonFiber-Theme"
+- name: carbon-fiber-theme
+  link: "/carbon-fiber-theme"
+  repo: "https://github.com/CameronBrooks11/carbon-fiber-theme"
   description: "A refined dark theme featuring carbon fiber texture."
 - name: fiberpath
   link: "https://fiberpath.org/fiberpath/"
@@ -214,6 +214,10 @@
   link: "/rod-connectors"
   repo: "https://github.com/CameronBrooks11/rod-connectors"
   description: "Printable hubs that join round rods at any angles in OpenSCAD: a floored socket for each rod, each rod its own size."
+- name: segmented-hose-scad
+  link: "/segmented-hose-scad"
+  repo: "https://github.com/CameronBrooks11/segmented-hose-scad"
+  description: "One segment of a ball-and-socket hose in OpenSCAD, for coolant and air lines: a ball that snaps into the next socket."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
