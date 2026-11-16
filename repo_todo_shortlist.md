@@ -44,7 +44,7 @@ https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0; site 
 https://github.com/CameronBrooks11/load-cell-scad (site from the docs engine)
 https://github.com/CameronBrooks11/octsphere-scad (was geodesic-polyhedron; site from the docs engine)
 https://github.com/CameronBrooks11/linkmail-scad (site from the docs engine)
-https://github.com/CameronBrooks11/TheTiny (site from the docs engine, the model on its own page)
+https://github.com/CameronBrooks11/tiny-house-scad (was TheTiny; site from the docs engine, the model on its own page)
 https://github.com/CameronBrooks11/voronoi-scad (site built by the just-the-docs-template-openscad engine, its first user)
 https://github.com/CameronBrooks11/md2html-action (light-base default theme and footnote styles, CameronBrooks11/md2html-action#18 and CameronBrooks11/md2html-action#19)
 https://github.com/CameronBrooks11/just-the-docs-template-openscad
