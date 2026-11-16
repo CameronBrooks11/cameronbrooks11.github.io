@@ -266,3 +266,15 @@
   link: "/lampshades"
   repo: "https://github.com/CameronBrooks11/lampshades"
   description: "3D-printable lampshades in OpenSCAD, printed in vase mode, from Matthew Seabright and two other designers."
+- name: tangent-lines
+  link: "/tangent-lines"
+  repo: "https://github.com/CameronBrooks11/tangent-lines"
+  description: "OpenSCAD functions for the tangent lines, intersections and touch points of circles, with Stone Age Sculptor's tutorial on the math."
+- name: ergonomic-handle
+  link: "/ergonomic-handle"
+  repo: "https://github.com/CameronBrooks11/ergonomic-handle"
+  description: "An OpenSCAD handle that spreads hand pressure evenly, scaled to any hand, continuing Alex Matulich's design from hand studies."
+- name: tube-bender
+  link: "https://github.com/CameronBrooks11/tube-bender/blob/main/readme.md"
+  repo: "https://github.com/CameronBrooks11/tube-bender"
+  description: "A parametric manual rotary-draw tube bender in OpenSCAD, from 1/8 in to 2 in tube, with every part derived from the tube and its loads."
