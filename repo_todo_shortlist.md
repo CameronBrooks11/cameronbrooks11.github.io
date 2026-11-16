@@ -39,6 +39,7 @@ https://github.com/CameronBrooks11/segmented-hose-scad (was loc-line; relicensed
 https://github.com/CameronBrooks11/parametric-calibration-objects (AGPL-3.0; site from the docs engine)
 https://github.com/CameronBrooks11/prusa-mk3-frame-support (render in place of the manual photo; STL checked against the source; site from the docs engine)
 https://github.com/CameronBrooks11/screw-sorter (was ultimateScrewSorter; DrLex's sieve vendored, CC BY-SA 4.0; site from the docs engine)
+https://github.com/CameronBrooks11/scadsculpt (faces turned outward and set on the bed; flame rewritten from the book-derived version, MIT; site from the docs engine)
 https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
 https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip, with BOSL2 staged by the engine)
