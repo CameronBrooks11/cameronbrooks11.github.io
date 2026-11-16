@@ -198,6 +198,14 @@
   link: "/iso4796-bottle-scad"
   repo: "https://github.com/CameronBrooks11/iso4796-bottle-scad"
   description: "ISO 4796-1 screw-neck lab bottles in OpenSCAD, 25 mL to 20 L, with DURAN and KIMAX rows and their capacities."
+- name: planetary-gear-fidget
+  link: "/planetary-gear-fidget"
+  repo: "https://github.com/CameronBrooks11/planetary-gear-fidget"
+  description: "A print-in-place planetary gear fidget toy in OpenSCAD: a sun, a ring and six herringbone planets in a rounded disc."
+- name: feet
+  link: "/feet"
+  repo: "https://github.com/CameronBrooks11/feet"
+  description: "Parametric OpenSCAD models of a human, a dog and a chicken foot, for teaching and visualization."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
