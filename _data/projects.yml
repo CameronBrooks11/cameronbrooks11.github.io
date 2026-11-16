@@ -206,6 +206,10 @@
   link: "/feet"
   repo: "https://github.com/CameronBrooks11/feet"
   description: "Parametric OpenSCAD models of a human, a dog and a chicken foot, for teaching and visualization."
+- name: heat-sink-scad
+  link: "/heat-sink-scad"
+  repo: "https://github.com/CameronBrooks11/heat-sink-scad"
+  description: "A parametric straight-fin heat sink in OpenSCAD, sized by its outside dimensions and the gap between fins."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
