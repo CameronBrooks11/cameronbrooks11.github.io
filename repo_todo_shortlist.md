@@ -19,7 +19,7 @@ https://github.com/CameronBrooks11/solidworks-cam-grbl-post (MIT rewrite of the 
 
 ## Cleaned up, no docs site yet
 
-https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; template CI)
+None left.
 
 ## Listed on the home page
 
@@ -55,6 +55,7 @@ https://github.com/heibench/orlab
 https://github.com/CameronBrooks11/cubesat-pc104-kicad (was PC104-Standard-KiCad; v1.0.0 released, CERN-OHL-P-2.0; MkDocs Material site)
 https://github.com/CameronBrooks11/rpi-hat-kicad (was RPi_Hat_Template; HAT+ ID EEPROM; MkDocs Material site)
 https://github.com/CameronBrooks11/mq-gas-sensor (was MQGasSensors; v2.0.0 API; MkDocs Material site)
+https://github.com/CameronBrooks11/build123d-template (generated projects pass their own CI; MIT; README page from md2html-action)
 
 ## Archived
 
