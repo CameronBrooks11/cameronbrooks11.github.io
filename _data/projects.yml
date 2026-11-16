@@ -258,3 +258,7 @@
   link: "/scadsculpt"
   repo: "https://github.com/CameronBrooks11/scadsculpt"
   description: "Generative sculptures in OpenSCAD: tubes swept along knots and spirals, and a twisting flame, each one printable solid."
+- name: panel-cube-joints
+  link: "/panel-cube-joints"
+  repo: "https://github.com/CameronBrooks11/panel-cube-joints"
+  description: "Printed connectors that screw square panels, such as circuit boards, together into boxes, with a tray to stand them in, in OpenSCAD."
