@@ -45,6 +45,7 @@ https://github.com/CameronBrooks11/lampshades (refreshed from mjseabright/lampsh
 https://github.com/CameronBrooks11/tangent-lines (Stone Age Sculptor's CC0 tutorial and library; site from the docs engine)
 https://github.com/CameronBrooks11/ergonomic-handle (continues Alex Matulich's CC BY 4.0 design; site from the docs engine)
 https://github.com/CameronBrooks11/tube-bender (GPL-3.0; just check in CI; its generated readme.md is the build manual, no docs-engine site)
+https://github.com/CameronBrooks11/stackable-drying-rack (relicensed AGPL-3.0 to MIT; print files replaced by documented settings; dovetail fit tests; site from the docs engine)
 https://github.com/CameronBrooks11/infinity-cube-scad (site from the docs engine)
 https://github.com/CameronBrooks11/battpack-scad (was BattPackSCAD; site from the docs engine)
 https://github.com/CameronBrooks11/honeycomb-wall-scad (site from the docs engine; the clip, with BOSL2 staged by the engine)
