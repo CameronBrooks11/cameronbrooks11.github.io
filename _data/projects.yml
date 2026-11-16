@@ -226,6 +226,10 @@
   link: "/prusa-mk3-frame-support"
   repo: "https://github.com/CameronBrooks11/prusa-mk3-frame-support"
   description: "A printable replacement for the Prusa MK3(S+) frame support bracket, in OpenSCAD, with every dimension a parameter."
+- name: screw-sorter
+  link: "/screw-sorter"
+  repo: "https://github.com/CameronBrooks11/screw-sorter"
+  description: "A stack of 3D-printed sieves that sorts screws by size, with holder rings between the trays, in OpenSCAD."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
