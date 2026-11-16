@@ -62,7 +62,7 @@ https://github.com/CameronBrooks11/GeoGrow
 https://github.com/CameronBrooks11/Voronoi-Diagram-SCAD (fork; replaced by voronoi-scad)
 https://github.com/CameronBrooks11/GRBL-Post (fork; replaced by solidworks-cam-grbl-post)
 https://github.com/CameronBrooks11/b123d-template-test (test project from build123d-template)
-https://github.com/CameronBrooks11/MQGasSensorsAnalysis (work moved to MQGasSensors)
+A private analysis repository (archived; its work moved into mq-gas-sensor)
 
 ## Moved
 
