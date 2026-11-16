@@ -170,9 +170,9 @@
   link: "/bdc-motor-scad"
   repo: "https://github.com/CameronBrooks11/bdc-motor-scad"
   description: "OpenSCAD model of a brushed DC hobby motor, 130 size by default, with the sizes to design mounts and pockets around it."
-- name: ChristmasNameOrnament
-  link: "/ChristmasNameOrnament"
-  repo: "https://github.com/CameronBrooks11/ChristmasNameOrnament"
+- name: christmas-name-ornament
+  link: "/christmas-name-ornament"
+  repo: "https://github.com/CameronBrooks11/christmas-name-ornament"
   description: "A flat Christmas ball ornament in OpenSCAD with a name across it and snowflakes, exported part by part for multicolour printing."
 - name: infinite-snowflakes
   link: "/infinite-snowflakes"

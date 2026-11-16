@@ -26,7 +26,7 @@ https://github.com/CameronBrooks11/RPi_Hat_Template
 
 ## Listed on the home page
 
-https://github.com/CameronBrooks11/ChristmasNameOrnament (MIT rewrite; site from the docs engine)
+https://github.com/CameronBrooks11/christmas-name-ornament (was ChristmasNameOrnament; MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/infinite-snowflakes (was snowflakefiniy; MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/snapfit-scad (MIT rewrite; site from the docs engine)
 https://github.com/CameronBrooks11/parametric-electrical-enclosure (MIT redesign; site from the docs engine)
