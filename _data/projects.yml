@@ -210,6 +210,10 @@
   link: "/heat-sink-scad"
   repo: "https://github.com/CameronBrooks11/heat-sink-scad"
   description: "A parametric straight-fin heat sink in OpenSCAD, sized by its outside dimensions and the gap between fins."
+- name: rod-connectors
+  link: "/rod-connectors"
+  repo: "https://github.com/CameronBrooks11/rod-connectors"
+  description: "Printable hubs that join round rods at any angles in OpenSCAD: a floored socket for each rod, each rod its own size."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
