@@ -278,3 +278,7 @@
   link: "https://github.com/CameronBrooks11/tube-bender/blob/main/readme.md"
   repo: "https://github.com/CameronBrooks11/tube-bender"
   description: "A parametric manual rotary-draw tube bender in OpenSCAD, from 1/8 in to 2 in tube, with every part derived from the tube and its loads."
+- name: stackable-drying-rack
+  link: "/stackable-drying-rack"
+  repo: "https://github.com/CameronBrooks11/stackable-drying-rack"
+  description: "A modular drying rack in OpenSCAD: hexagonal basins that dovetail into trays of any size and stack on rods."
