@@ -254,3 +254,7 @@
   link: "/build123d-template"
   repo: "https://github.com/CameronBrooks11/build123d-template"
   description: "Cookiecutter template for build123d CAD projects: a parametric part, STL and STEP export, and CI that builds the parts and releases them on each tag."
+- name: scadsculpt
+  link: "/scadsculpt"
+  repo: "https://github.com/CameronBrooks11/scadsculpt"
+  description: "Generative sculptures in OpenSCAD: tubes swept along knots and spirals, and a twisting flame, each one printable solid."
