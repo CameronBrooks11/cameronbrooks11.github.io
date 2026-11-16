@@ -154,9 +154,9 @@
   link: "/parametric-wall-bin"
   repo: "https://github.com/CameronBrooks11/parametric-wall-bin"
   description: "Parametric open bin in OpenSCAD that screws to a wall, with a label engraved on its flange."
-- name: pixelArtSCAD
-  link: "/pixelArtSCAD"
-  repo: "https://github.com/CameronBrooks11/pixelArtSCAD"
+- name: pixel-art-scad
+  link: "/pixel-art-scad"
+  repo: "https://github.com/CameronBrooks11/pixel-art-scad"
   description: "OpenSCAD library for 3D pixel art from character arrays, with a PNG converter."
 - name: parametric-funnel
   link: "/parametric-funnel"
