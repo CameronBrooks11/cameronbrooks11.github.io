@@ -210,3 +210,7 @@
   link: "/mq-gas-sensor"
   repo: "https://github.com/CameronBrooks11/mq-gas-sensor"
   description: "Arduino library for MQ-series gas sensors, with every calibration coefficient traced to its datasheet."
+- name: build123d-template
+  link: "/build123d-template"
+  repo: "https://github.com/CameronBrooks11/build123d-template"
+  description: "Cookiecutter template for build123d CAD projects: a parametric part, STL and STEP export, and CI that builds the parts and releases them on each tag."
