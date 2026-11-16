@@ -190,6 +190,14 @@
   link: "/lever-nut-holder-scad"
   repo: "https://github.com/CameronBrooks11/lever-nut-holder-scad"
   description: "Printable holders for WAGO 221 lever connectors in OpenSCAD, in one or two rows, flat or standing, with screw tabs."
+- name: din168-thread-scad
+  link: "/din168-thread-scad"
+  repo: "https://github.com/CameronBrooks11/din168-thread-scad"
+  description: "DIN 168 round threads for laboratory glassware in OpenSCAD: the standard's size table, the thread and a screw cap."
+- name: iso4796-bottle-scad
+  link: "/iso4796-bottle-scad"
+  repo: "https://github.com/CameronBrooks11/iso4796-bottle-scad"
+  description: "ISO 4796-1 screw-neck lab bottles in OpenSCAD, 25 mL to 20 L, with DURAN and KIMAX rows and their capacities."
 - name: wikisync
   link: "https://heibench.com/wikisync/"
   repo: "https://github.com/heibench/wikisync"
