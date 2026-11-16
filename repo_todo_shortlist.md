@@ -39,7 +39,7 @@ https://github.com/CameronBrooks11/parametric-wall-bin (site from the docs engin
 https://github.com/CameronBrooks11/pixelArtSCAD (site from the docs engine)
 https://github.com/CameronBrooks11/parametric-funnel (site from the docs engine)
 https://github.com/CameronBrooks11/bdc-motor-scad (site from the docs engine)
-https://github.com/CameronBrooks11/L-System-SCAD (site from the docs engine)
+https://github.com/CameronBrooks11/lindenmayer-system-scad (was L-System-SCAD; site from the docs engine)
 https://github.com/CameronBrooks11/bayonet-lock-scad (tagged from v0.11.0; site from the docs engine)
 https://github.com/CameronBrooks11/load-cell-scad (site from the docs engine)
 https://github.com/CameronBrooks11/octsphere-scad (was geodesic-polyhedron; site from the docs engine)
