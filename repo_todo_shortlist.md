@@ -37,7 +37,7 @@ https://github.com/CameronBrooks11/heat-sink-scad (input checks and tests; pin f
 https://github.com/CameronBrooks11/rod-connectors (relicensed GPL-3.0 to MIT; library rewrite with a rod stop; site from the docs engine)
 https://github.com/CameronBrooks11/segmented-hose-scad (was loc-line; relicensed GPL-3.0 to MIT; segment module and fit checks; site from the docs engine)
 https://github.com/integrumsys/parametric-calibration-objects (AGPL-3.0; site from the docs engine; transferred to integrumsys 2026-11-20)
-https://github.com/CameronBrooks11/prusa-mk3-frame-support (render in place of the manual photo; STL checked against the source; site from the docs engine)
+https://github.com/integrumsys/prusa-mk3-frame-support (render in place of the manual photo; STL checked against the source; site from the docs engine; transferred to integrumsys 2026-11-21)
 https://github.com/CameronBrooks11/screw-sorter (was ultimateScrewSorter; DrLex's sieve vendored, CC BY-SA 4.0; site from the docs engine)
 https://github.com/CameronBrooks11/scadsculpt (faces turned outward and set on the bed; flame rewritten from the book-derived version, MIT; site from the docs engine)
 https://github.com/CameronBrooks11/panel-cube-joints (tests for the hole and tray fixes; print test of the M2 pilot in CameronBrooks11/panel-cube-joints#4; site from the docs engine)
