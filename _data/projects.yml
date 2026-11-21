@@ -223,8 +223,8 @@
   repo: "https://github.com/integrumsys/parametric-calibration-objects"
   description: "A library of parametric calibration objects in OpenSCAD for calibrating and benchmarking a 3D printer."
 - name: prusa-mk3-frame-support
-  link: "/prusa-mk3-frame-support"
-  repo: "https://github.com/CameronBrooks11/prusa-mk3-frame-support"
+  link: "https://integrumsys.github.io/prusa-mk3-frame-support/"
+  repo: "https://github.com/integrumsys/prusa-mk3-frame-support"
   description: "A printable replacement for the Prusa MK3(S+) frame support bracket, in OpenSCAD, with every dimension a parameter."
 - name: screw-sorter
   link: "/screw-sorter"
