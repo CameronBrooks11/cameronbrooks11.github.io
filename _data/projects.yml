@@ -219,8 +219,8 @@
   repo: "https://github.com/CameronBrooks11/segmented-hose-scad"
   description: "One segment of a ball-and-socket hose in OpenSCAD, for coolant and air lines: a ball that snaps into the next socket."
 - name: parametric-calibration-objects
-  link: "/parametric-calibration-objects"
-  repo: "https://github.com/CameronBrooks11/parametric-calibration-objects"
+  link: "https://integrumsys.github.io/parametric-calibration-objects/"
+  repo: "https://github.com/integrumsys/parametric-calibration-objects"
   description: "A library of parametric calibration objects in OpenSCAD for calibrating and benchmarking a 3D printer."
 - name: prusa-mk3-frame-support
   link: "/prusa-mk3-frame-support"
